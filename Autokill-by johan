@@ -10,7 +10,7 @@ getgenv().AutoKillTargets = getgenv().AutoKillTargets or {}
 getgenv().AutoKillEnabled = true
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "Auto kill || By Johan"
+screenGui.Name = "☠️ INFERNO AUTO KILL | By Johan☠️"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = game.CoreGui
 
