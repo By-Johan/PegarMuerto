@@ -79,14 +79,10 @@ titleBar.Size = UDim2.new(1,0,0,30)
 titleBar.BackgroundColor3 = Color3.fromRGB(200,30,30)
 titleBar.Parent = mainFrame
 
---OBTENER NOMBRE DEL JUGADOR
-local player = game.Players.LocalPlayer
-local displayName = player.DisplayName or player.Name
-
 local titleButton = Instance.new("TextButton")
 titleButton.Size = UDim2.new(1,0,1,0)
 titleButton.BackgroundTransparency = 1
-titleButton.Text = "☠️AUTO KILL | By Johan Bienvenido".. displayName, {
+titleButton.Text = "☠️AUTO KILL | By Johan💀"
 titleButton.TextColor3 = Color3.fromRGB(0,0,255)
 titleButton.Font = Enum.Font.GothamBold
 titleButton.TextSize = 20
